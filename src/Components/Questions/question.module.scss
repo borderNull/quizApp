@@ -1,0 +1,115 @@
+.questions {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wrap {
+  height: calc(100vh - 90px);
+  display: flex;
+  flex-direction: column;
+}
+
+.category {
+  text-align: center;
+}
+
+.card {
+  margin: auto;
+  border-radius: 4px;
+  box-shadow: -1px 1px 10px 4px rgba(0,0,0, .15);
+  display: flex;
+  flex-direction: column;
+  min-height: 300px;
+  width: 300px;
+}
+
+.question {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: auto;
+  padding: 10px 20px;
+  border-top: 1px solid #eee;
+}
+
+.button {
+  padding: 5px 20px;
+  border-radius: 4px;
+  border: 1px solid #1070ff;
+  color: #1070ff;
+  background: transparent;
+  text-transform: uppercase;
+  outline: none;
+  cursor: pointer;
+}
+
+
+.resultWrap {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.result {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.resultTitle {
+  width: 100px;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.resultList {
+  padding: 0;
+  margin-top: 40px;
+}
+
+.questionResult {
+  display: flex;
+  align-items: baseline;
+  line-height: 26px;
+  padding: 10px;
+  border-bottom: 1px solid rgba(0,0,0, .15);
+  
+
+  svg {
+    width: 15px;
+    height: 10px;
+    margin-right: 15px;
+    }
+
+  p {
+    max-width: 80%;
+    word-break: break-word; 
+  }
+}
+
+.buttonPlay {
+  background: #1070ff;
+  padding: 5px 20px;
+  border-radius: 4px;
+  border: 1px solid #1070ff;
+  color: #fff;
+  text-transform: uppercase;
+  outline: none;
+  cursor: pointer;
+  margin-top: auto;
+  margin-bottom: 50px;
+}
+
+:global {
+  .plusIcon {
+    fill: red;
+  }
+}

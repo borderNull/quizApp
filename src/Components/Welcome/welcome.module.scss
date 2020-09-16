@@ -1,0 +1,64 @@
+ 
+
+.wrap {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+}
+
+.select {
+  width: 170px;
+  padding: 10px;
+  border: 2px solid #4a60d7;
+  border-radius: 4px;
+  outline-color: #4a60d738;
+  background-color: transparent;
+  background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+  background-repeat: no-repeat;
+  background-position-x: 100%;
+  background-position-y: 5px;
+  appearance: none;
+
+  option {
+    padding: 10px;
+  }
+}
+
+.input {
+  width: 150px;
+  margin-top: 30px;
+  padding: 10px;
+  border: 2px solid #4a60d7;
+  border-radius: 4px;
+  outline-color: #4a60d738;
+}
+
+.button {
+  margin-bottom: 70px;
+  padding: 10px 20px;
+  border-radius: 4px;
+  border: 2px solid #4a60d7;
+  background: #4a60d7;
+  color: #fff;
+  text-transform: uppercase;
+  outline: none;
+  cursor: pointer;
+
+  &:disabled {
+    background: #a2a2a2;
+    outline-color: #a2a2a2; 
+    border: 2px solid #a2a2a2;
+  }
+}
